@@ -3,9 +3,6 @@ a{
     text-decoration: none;
 }
 
-.divFooter{
-    background-color: black;
-}
 
 .icon{
     color: white;
@@ -13,6 +10,25 @@ a{
 }
 
 .icon:hover{
-    color: #f9004d;
+    color: #f9004d !important;
+}
+
+.divFooter.dark {
+  background-color: black;
+}
+
+.divFooter.light {
+  background-color: white;
+}
+
+
+
+
+.divFooter.dark  {
+  color: white;
+}
+
+.divFooter.light .icon {
+  color: black;
 }
 

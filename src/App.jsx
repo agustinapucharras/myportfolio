@@ -5,11 +5,13 @@ import Home from './pages/Home'
 import AboutMe from './pages/AboutMe'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
+import useThemeStore  from "./store/authStore"
 
 function App() {
 
+
   return (
-    <>
+ 
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>}/>
@@ -18,7 +20,7 @@ function App() {
           <Route path="/projects" element={<Projects/>}/>
         </Routes>
       </BrowserRouter>
-    </>
+  
   )
 }
 

@@ -1,26 +1,37 @@
-.meAboutMe{
-    height:  400px;
-    width: 350px;
+
+.divContainerAboutMe.dark {
+  background-color: black;
+  color: white;
 }
 
-.whoAmI{
-     font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    color: #f9004d;
+.divContainerAboutMe.light {
+  background-color: white;
+  color: black;
 }
 
-.aboutMe{
-    color: white;
-    text-shadow: -2px 4px 4px rgba(249, 0, 79, 0.639);
-
+.whoAmI {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #f9004d; 
 }
 
-.skills{
-    color: white;
-    text-shadow: -2px 4px 4px rgba(249, 0, 79, 0.639);
-    text-align: center;
-    margin-top: 50px;
+.aboutMe {
+  text-shadow: -2px 4px 4px rgba(249, 0, 79, 0.639);
+ 
+}
+
+.skills {
+  text-align: center;
+  margin-top: 50px;
+  text-shadow: -2px 4px 4px rgba(249, 0, 79, 0.639);
+  color: inherit;
+}
+
+.meAboutMe {
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
 }
 

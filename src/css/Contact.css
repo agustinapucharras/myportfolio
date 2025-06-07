@@ -8,3 +8,14 @@
     background-color: #5d001e;
     border: none;
 }
+
+.containerContact.dark {
+    background-color: black;
+    color: white;
+
+}
+
+.containerContact.light {
+    background-color: white;
+    color: black;
+}

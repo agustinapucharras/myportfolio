@@ -22,7 +22,7 @@ const CardSkills = () => {
     getPersonalInfor();
   }, []);
   return (
-    <div className="d-flex justify-content-around flex-wrap"> 
+    <div className="d-flex justify-content-around flex-wrap gap-4 pt-3"> 
       {tech.map((technology, index) => (
         <Card style={{ width: "18rem" }} className="cardProject">
           <Card.Img

@@ -26,9 +26,9 @@
   width: 100%;
 }
 
-.navBarGeneral{
-    background-color: black;
-    color: white;
+.navBarGeneral {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  /* Quitamos el fondo y color fijo */
 }
 
 .fontMyPort{
@@ -37,4 +37,43 @@
     font-style: normal;
     font-size: 30px;
     color: #f9004d;
+}
+
+/* Tema oscuro */
+.dark-theme.navBarGeneral {
+  background-color: #000000;
+  color: white;
+}
+
+/* Tema claro */
+.light-theme.navBarGeneral {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Aseguramos que los enlaces hereden el color del tema */
+.pagesMenu {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: inherit; /* 👈 importante: que herede el color del tema */
+  transition: color 0.5s ease;
+}
+
+.pagesMenu:hover {
+  color: #f9004d;
+}
+
+.theme-toggle-btn {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.theme-toggle-btn:hover,
+.theme-toggle-btn:focus,
+.theme-toggle-btn:active {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
 }

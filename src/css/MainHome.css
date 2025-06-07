@@ -1,31 +1,39 @@
-
-.divMainHome{
-    background-color: black;
+.divMainHome.dark {
+  background-color: #000;
+  color: white;
 }
 
-.myImage{
-    height: 274px;
-    width: 285px;
-    border-radius: 50%;
+.divMainHome.light {
+  background-color: #fff;
+  color: black;
 }
 
-
-.textMainHome{
-    font-family: "DM Serif Display", serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 30px;
-    color: #f9004d;
+.myImage {
+  height: 274px;
+  width: 285px;
+  border-radius: 50%;
 }
 
-.hr{
-    border: 3px solid #f9004d;
-  width: 500px;       
+.textMainHome {
+  font-family: "DM Serif Display", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+  color: #f9004d;
+}
+
+.hr {
+  border: 3px solid #f9004d;
+  width: 500px;
   margin: 30px auto 20px;
-
 }
 
-.projects{
-    color: white;
-    text-shadow: -2px 4px 4px rgba(249,0,77,0.55);
+.projects.dark {
+  color: white;
+  text-shadow: -2px 4px 4px rgba(249, 0, 77, 0.55);
+}
+
+.projects.light {
+  color: black;
+  text-shadow: -2px 4px 4px rgba(249, 0, 77, 0.25);
 }

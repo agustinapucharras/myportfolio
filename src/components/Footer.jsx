@@ -1,9 +1,11 @@
 import React from "react";
 import "../css/Footer.css";
+import useThemeStore from "../store/authStore";
 
 const Footer = () => {
+  const { background } = useThemeStore();
   return (
-    <div>
+    <div className={`divFooter ${background ? "dark" : "light"}`}>
       <br />
       <hr className="hr " />
       <div className="flex justify-center items-center divFooter">

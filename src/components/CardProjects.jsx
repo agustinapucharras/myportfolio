@@ -4,9 +4,11 @@ import {Button} from "react-bootstrap";
 import axios from "axios";
 import { BASE_URL_PROJ } from "../constants/constants";
 import "../css/Card.css";
+import useThemeStore from "../store/authStore";
 
 const CardProjects = () => {
   const [projects, setProjects] = useState([]);
+  const { background } = useThemeStore();
 
   const getProjects = async () => {
     let response = await axios.get(BASE_URL_PROJ);
@@ -19,7 +21,7 @@ const CardProjects = () => {
   }, []);
 
   return (
-    <div className="mt-4">
+    <div className={`${background ?  "bg-black" : "bg-white"}`}>
       <div className="d-flex justify-content-around">
         {projects.map((project) => (
             

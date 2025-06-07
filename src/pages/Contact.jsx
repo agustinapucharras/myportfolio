@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import "../css/Contact.css";
+import useThemeStore from "../store/authStore";
 
 
 const Contact = () => {
@@ -12,6 +13,7 @@ const Contact = () => {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [phone, setPhone] = useState(null)
+  const { background } = useThemeStore();
   const handleSubmit = (e) => {
     e.preventDefault();
     alert(`Thank you for contacting me, ${name}!😃 . I will get back to you at ${email} or ${phone}.`)
@@ -22,8 +24,9 @@ const Contact = () => {
   return (
     <div>
       <Header />
-      <h2 className="aboutMe text-center">CONTACT ME</h2>
-      <div className="mt-4" >
+      
+      <div className={`containerContact pt-4 ${background ? "dark" : "light"}`} >
+        <h2 className="aboutMe text-center">CONTACT ME</h2>
         <Form onSubmit={handleSubmit}>
 
           <div
