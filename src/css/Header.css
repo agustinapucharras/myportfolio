@@ -28,7 +28,6 @@
 
 .navBarGeneral {
   transition: background-color 0.3s ease, color 0.3s ease;
-  /* Quitamos el fondo y color fijo */
 }
 
 .fontMyPort{
@@ -39,24 +38,24 @@
     color: #f9004d;
 }
 
-/* Tema oscuro */
+
 .dark-theme.navBarGeneral {
   background-color: #000000;
   color: white;
 }
 
-/* Tema claro */
+
 .light-theme.navBarGeneral {
   background-color: #ffffff;
   color: black;
 }
 
-/* Aseguramos que los enlaces hereden el color del tema */
+
 .pagesMenu {
   position: relative;
   display: inline-block;
   cursor: pointer;
-  color: inherit; /* 👈 importante: que herede el color del tema */
+  color: inherit; 
   transition: color 0.5s ease;
 }
 
