@@ -1,0 +1,10 @@
+.btnContact{
+    background-color: #f9004d;
+    color: white;
+    border: none;
+}
+
+.btnContact:hover{
+    background-color: #5d001e;
+    border: none;
+}
