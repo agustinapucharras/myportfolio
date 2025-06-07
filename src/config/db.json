@@ -5,18 +5,19 @@
         "hobbies": ["Programming", "Traveling"],
         "age": 23,
         "email": "pucharra81@gmail.com",
-        "languages": [
-            "JavaScript","Python,C#","C++"
-        ],
-        "technolgies": [
-            "HTML",
-            "CSS",
-            "SQL",
-            "Bootstrap",
-            "Tailwind CSS",
-            "React",
-            "GitHub"
-        ]
+        "technologies": [
+            {"name": "JavaScript", "image":"/javas.png"},
+            {"name": "Python", "image":"/python.png"},
+            {"name": "C#", "image":"/Csharp_Logo.png"},
+            {"name": "C++", "image":"/cplus.png"},
+            {"name": "React", "image":"/react.png"},
+            {"name": "SQL", "image":"/sql.png"},
+            {"name": "HTML", "image":"/html.png"},
+            {"name": "CSS", "image":"/css.png"},
+            {"name": "Tailwind CSS", "image":"/tailwind.png"},
+            {"name": "Bootstrap", "image":"/bootstrap.png"},
+            {"name": "GitHub", "image":"/guthub.png"}
+             ]
         },
     "projects": [
         {

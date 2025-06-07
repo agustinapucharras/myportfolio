@@ -5,6 +5,7 @@ import axios from "axios";
 import { BASE_URL_PERSINFO } from "../../constants/constants";
 import { useState } from "react";
 import { useEffect } from "react";
+import CardSkills from "../CardSkills";
 
 const MainAboutMe = () => {
   const [data, setData] = useState({});
@@ -24,23 +25,36 @@ const MainAboutMe = () => {
   }, []);
 
   return (
-    <div className="d-flex justify-content-around mt-4">
-      <div className="text-center">
-        <h2 className="aboutMe">ABOUT ME</h2>
-        <h4 className="whoAmI">Who Am I?</h4>
-        <p>
-          My name is {data.name} {data.surname}.
-        </p>
-        <p> I am {data.age} years old and a passionate software developer.</p>
-        <p>I enjoy working in a team and learning new things every day</p>
-        <h2 className="aboutMe">SKILLS</h2>
-        <div class="progress">
-          <div class="progress-value"></div>
+    <div>
+      <div className="d-flex justify-content-around align-items-center mt-4">
+        <div className="text-center">
+          <h2 className="aboutMe">ABOUT ME</h2>
+          <h4 className="whoAmI">Who Am I?</h4>
+          <p className="text-light">
+            My name is {data.name} {data.surname}.
+          </p>
+          <p className="text-light">
+            {" "}
+            I am {data.age} years old and a passionate software developer.
+          </p>
+          <p className="text-light">
+            I enjoy working in a team and learning new things every day
+          </p>
+          
+          <br />
+         
+        </div>
+        <div>
+          <img src={myImage} alt="" className="meAboutMe" />
         </div>
       </div>
-      <div>
-        <img src={myImage} alt="" className="meAboutMe" />
-      </div>
+      <h2 className="skills mb-3">SKILLS</h2>
+
+        <CardSkills />
+
+        
+     
+      
     </div>
   );
 };

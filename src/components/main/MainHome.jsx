@@ -8,11 +8,10 @@ const MainHome = () => {
   return (
     <div className="divMainHome ">
       <div className="divMainHome d-flex justify-content-evenly align-items-center pt-3 ">
-        <div className=" image-container ms-4">
-          <img src={myImage} alt="" className="myImage" />
-        </div>
-        <div className="text-center text-container">
+
+        <div className="text-center text-light">
           <h2>Hello! </h2>
+          <h2>Welcome to My Portfolio</h2>
           <h2>My name is Agustina Pucharras.</h2>
           <h2>
             I am a <span className="textMainHome">Full-Stack Developer </span>
