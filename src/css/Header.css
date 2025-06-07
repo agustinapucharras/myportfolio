@@ -1,0 +1,40 @@
+.pagesMenu {
+  position: relative;
+  display: inline-block; 
+  cursor: pointer;
+  color: initial; 
+  transition: color 0.5s ease;
+}
+
+.pagesMenu::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #f9004d;
+  transition: width 0.3s ease;
+  border-radius: 2px;
+}
+
+.pagesMenu:hover {
+  color: #f9004d;
+}
+
+.pagesMenu:hover::after {
+  width: 100%;
+}
+
+.navBarGeneral{
+    background-color: black;
+    color: white;
+}
+
+.fontMyPort{
+    font-family: "DM Serif Display", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: #f9004d;
+}

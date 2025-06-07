@@ -1,0 +1,41 @@
+.imgCardProject{
+    height: 30vh;
+}
+
+.btnGoGit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+  
+}
+.btnGoGit:hover{
+    color: #f9004f;
+    text-decoration: none;
+}
+.cardProject {
+    background-color: black;
+  box-shadow: #f9004f36 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+}
+
+.cardProject:hover {
+  transform: scale(1.05);
+  box-shadow: #f9004f66 0px 20px 40px, rgba(0, 0, 0, 0.3) 0px 17px 14px;
+}
+
+.cardBodyProject{
+    background-color: black;
+   
+}
+
+.cardTitle{
+color: white;
+    text-shadow: -2px 4px 4px rgba(249,0,77,0.55);
+}
+
+.cardTextProject{
+    color: rgba(255, 255, 255, 0.541);
+}

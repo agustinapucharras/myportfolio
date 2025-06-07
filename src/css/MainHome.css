@@ -1,0 +1,39 @@
+
+.divMainHome{
+    background-color: black;
+}
+
+.myImage{
+    height: 274px;
+    width: 285px;
+    border-radius: 50%;
+
+
+}
+
+.text-container {
+  position: relative;
+  padding-left: 60px;
+  border-left: 4px solid #f9004d; 
+  color: white;
+}
+
+.textMainHome{
+    font-family: "DM Serif Display", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: #f9004d;
+}
+
+.hr{
+     border: 3px solid #f9004d;
+  width: 500px;       
+  margin: 50px auto 20px;
+
+}
+
+.projects{
+    color: white;
+    text-shadow: -2px 4px 4px rgba(249,0,77,0.55);
+}

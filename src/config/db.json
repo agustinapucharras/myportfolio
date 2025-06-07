@@ -1,0 +1,55 @@
+{
+    "personalInfo":{
+        "name": "Agustina Nahir",
+        "surname": "Pucharras",
+        "hobbies": ["Programming", "Traveling"],
+        "age": 23,
+        "email": "pucharra81@gmail.com",
+        "languages": [
+            "JavaScript","Python,C#","C++"
+        ],
+        "technolgies": [
+            "HTML",
+            "CSS",
+            "SQL",
+            "Bootstrap",
+            "Tailwind CSS",
+            "React",
+            "GitHub"
+        ]
+        },
+    "projects": [
+        {
+            "id":"1",
+            "name": "ElectroShop",
+            "description": "E-commerce platform for electronics.",
+            "image": "/electroshop.jpg",
+            "url": "https://electroshopargentina.netlify.app/",
+            "git":"https://github.com/agustinapucharras/ecommerceElectroShop.git"
+        },
+        {
+            "id":"2",
+            "name": "RollingMusic",
+            "description": "It is a page to log in, register and add favorite songs.",
+            "image": "/rollingmusic.jpg",
+            "url": "https://rolling-musicproyect.netlify.app/",
+            "git":"https://github.com/agustinapucharras/rollingMusic.git"
+        },
+        {
+            "id":"3",
+            "name": "Coctel&Co",
+            "description": "This page is created in order to show the beverage catalog, and make a CRUD.",
+            "image": "/Cóctel&Co.png",
+            "url": null,
+            "git":"https://github.com/agustinapucharras/coctelco.git"
+        },
+        {
+            "id":"4",
+            "name": "API Rick y Morty",
+            "description": "This is a project that consumes the Rick and Morty API, displaying only characters",
+            "image":"/rickymorty.jpg",
+            "git":"https://github.com/agustinapucharras/practicaGit/tree/main/clase04-estados"
+        }
+    ]
+}
+

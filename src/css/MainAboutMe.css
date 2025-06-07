@@ -1,0 +1,43 @@
+.meAboutMe{
+    height:  400px;
+    width: 350px;
+}
+
+.whoAmI{
+     font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #f9004d;
+}
+
+.aboutMe{
+    color: white;
+    text-shadow: -2px 4px 4px rgba(249, 0, 79, 0.639);
+}
+
+.progress {
+  background: rgba(255,255,255,0.1);
+  justify-content: flex-start;
+  border-radius: 100px;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+  display: flex;
+  height: 20px;
+  width: 500px;
+}
+
+.progress-value {
+  animation: load 3s normal forwards;
+  box-shadow: 0 10px 40px -10px #fff;
+  border-radius: 100px;
+  background: #fff;
+  height: 10px;
+  width: 0;
+}
+
+@keyframes load {
+  0% { width: 0; }
+  100% { width: 68%; }
+}
